@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>Hotel Sunset Plains</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+	background-color:black;
+}
+h3{
+	color:#FAF2F0;
+	text-align:center;
+}
+#bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+#bar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+#bar a:hover {
+  background-color: #000;
+}
+#bar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  width:200px;
+}
+#search {
+	border-radius: 8px;
+	width:2%;
+}
+.heading {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family:verdana;
+}
+.ph1{
+    height:550px;
+	width:1300px;
+}
+.cen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:70px;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FAD78C;
+}
+footer {
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 2.5fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+.column subscribe {
+  display: grid;
+  grid-template-raws: 2fr 2.5fr;
+  align-items: stretch;
+}
+.qr{
+  width:30%;
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.news{
+	font-size: 15px;
+}
+.loc{
+  font-size:20px;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+column link {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social a {
+  color: white;
+}
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover, .social i:hover{
+  color: #c7940a;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+
+</style>
+</head>
+<body>
+<header class="heading" id="home">
+<div id="bar">
+  <a href="./home.html">HOME</a>
+  <a href="./login.html">LOGIN</a>
+  <a href="./MyWedding.html">MY WEDDING</a>
+  <a href="./Food&Beverage_Menu.html">FOOD COMBO</a>
+  <a href="./promotion.html">PROMOTION & EVENTS</a>
+  <a href="./reservation.html">RESERVATION</a>
+  <a href="./aboutus.html">ABOUT US</a>
+  <a href="./blog.html">BLOG</a>
+  <input type="text" placeholder="Search..">
+  <img id="search" src="./images/search.png">
+</div>
+
+
+  <div class="div1">
+   <img class=ph1 src="./images/wedding_home.jpg">
+   <div class="cen">Hotel Sunset<br>Plains</div>
+   
+  </div>
+</header>
+<footer>
+
+<div class="row primary">
+  <div class="column about">
+    <p class="loc">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      316, Ruwan Perera Road, Sri Lanka<br>
+	  <h3>WHY US</h3>
+	  
+	  The Ultimate Setting For Some Of Life's Greatest Moments,<br>
+
+	  We Create Incredible Memories For Guests On Their 'Once In a Lifetime' Journey.<br>
+	  <br>
+	  <h3>FIND US</h3>
+    </p>
+    <div class="social">
+      <a href="https://www.facebook.com/" class="fa fa-facebook-square"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter-square"></a>
+      <a href="https://lk.linkedin.com/" class="fa fa-linkedin-square"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+  </div>
+
+  <div class="column link">
+  <br><br>
+    GENERAL INQUIRIES<br>
+	TEL : +94 75 123 1299<br>
+	Email : we@sunsetplains.lk<br><br>
+
+	RESTAURANT RESERVATIONS<br>
+	TEL : +94 77 210 1187<br>
+	Email:sunsetreserve@sunsetplains.lk<br><br>
+
+	BANQUET SALES<br>
+	TEL : +94 70 345 2876<br>
+	Email: newrathada@sunsetplains.lk<br><br>
+	
+	PHOTOGRAPHIC<br>
+	TEL : +94 72 666 8765<br>
+	Email: marlin@sunsetplains.lk<br><br>
+    
+  </div>
+  <div class="column subscribe">
+	<div>
+	<p>
+	  <img class="qr" src="./images/qr.png">
+      <u>OPERATING HOURS</u><br><br>
+
+	MON - SAT -<br>
+     &nbsp &nbsp 8AM TO 10PM<br>
+	SUN -<br>
+     &nbsp &nbsp 8AM TO 12PM
+	 </p>
+    </div>
+	<div>
+		<p class="news">Sign up for the Hotel sunset plains newsletter<p>
+      <input type="email" placeholder="Your email id here" />
+      <button>Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<div class="row copyright">
+  <div class="footer-menu">
+
+    <a href="./home.html">HOME</a>
+    <a href="./MyWedding.html">MY WEDDING</a>
+    <a href="./Food&Beverage_Menu.html">FOOD COMBO</a>
+    <a href="./promotion.html">PROMOTION & EVENTS</a>
+    <a href="./reservation.html">RESERVATION</a>
+    <a href="./termandcondition.html">TERMS & CONDITIONS</a>
+    <a href="./aboutus.html">ABOUT US</a>
+    <a href="./FAQ.html">FAQ</a>
+    <a href="./blog.html">BLOG</a>
+
+  </div>
+   <p>Copyright &copy; 2023</p>
+</div>
+
+</footer>
+</body>
+</html>
+</html>
